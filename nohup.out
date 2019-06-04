@@ -1,0 +1,92 @@
+2019-05-27 13:45:25,245 - root - INFO - khaiii opened with rsc_dir: "/home/ubuntu/.local/lib/python3.6/site-packages/khaiii/share/khaiii", opt_str: ""
+/home/ubuntu/.local/lib/python3.6/site-packages/telegram/ext/messagehandler.py:123: UserWarning: Using a list of filters in MessageHandler is getting deprecated, please use bitwise operators (& and |) instead. More info: https://git.io/vPTbc.
+  warnings.warn('Using a list of filters in MessageHandler is getting '
+2019-05-27 14:03:37,365 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+
+
+740023063
+Message : 슬픔
+8557    Attribute : NEGLow
+dtype: object
+
+
+       genre artist_name track_name  ...    tempo  time_signature  valence
+172455  Soul  Etta James    At Last  ...  174.431             3/4    0.315
+
+[1 rows x 18 columns]
+
+
+778669138
+Message : 눈물
+3477    Attribute : POSMedium
+dtype: object
+
+
+      genre   artist_name track_name  ...    tempo  time_signature  valence
+68852   Rap  Trippie Redd    Topanga  ...  105.955             4/4    0.039
+
+[1 rows x 18 columns]
+
+
+740023063
+Message : 슬픔
+8557    Attribute : NEGLow
+dtype: object
+
+
+      genre  artist_name         track_name  ...   tempo  time_signature  valence
+31853   Pop  Norah Jones  Come Away With Me  ...  80.367             3/4    0.147
+
+[1 rows x 18 columns]
+
+
+778669138
+Message : 비
+7397    Attribute : POSHigh
+dtype: object
+
+
+                  genre       artist_name  ... time_signature valence
+42628  Children’s Music  Three Days Grace  ...            4/4   0.506
+
+[1 rows x 18 columns]
+
+
+740023063
+Message : 사랑
+7610    Attribute : POSMedium
+dtype: object
+
+
+      genre             artist_name track_name  ...    tempo  time_signature  valence
+1817  Dance  Florence + The Machine     Hunger  ...  116.016             4/4    0.332
+
+[1 rows x 18 columns]
+
+
+685087129
+Message : 행복
+15908    Attribute : POSMedium
+dtype: object
+
+
+      genre artist_name  ... time_signature valence
+70678   Rap     Ronny J  ...            4/4   0.312
+
+[1 rows x 18 columns]
+
+
+685087129
+Message : 불행
+7373    Attribute : POSLow
+dtype: object
+
+
+          genre artist_name track_name  ...   tempo  time_signature  valence
+106418  Hip-Hop     Jeremih  Impatient  ...  89.546             4/4    0.394
+
+[1 rows x 18 columns]
+2019-05-29 03:04:12,497 - root - INFO - khaiii opened with rsc_dir: "/home/ubuntu/.local/lib/python3.6/site-packages/khaiii/share/khaiii", opt_str: ""
+/home/ubuntu/.local/lib/python3.6/site-packages/telegram/ext/messagehandler.py:123: UserWarning: Using a list of filters in MessageHandler is getting deprecated, please use bitwise operators (& and |) instead. More info: https://git.io/vPTbc.
+  warnings.warn('Using a list of filters in MessageHandler is getting '
+2019-05-29 03:06:01,719 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
