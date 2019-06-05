@@ -56,6 +56,7 @@ def thanks(bot, update):    # Bot에 /thanks Command 입력 혹은 Bot Button In
 
 def change(bot, update):                # Bot에 Command외의 Message(감성어가 포함된 단어 혹은 문장)가 입력되었을 때
     tmp = update.message.text           # 최근 갱신된(사용자가 Bot에 Message 입력) Message를 받아옴
+    count = 0
 
     for word in api.analyze(tmp):       # Message를 형태소 분석을 진행해서 띄어쓰기 단위로 word 변수에 저장되어 반복문을 돔
 
@@ -97,12 +98,18 @@ def change(bot, update):                # Bot에 Command외의 Message(감성어
                     music = final_mdf.loc[final_mdf["cluster_id"] == 5]  
                 else:   # 유사한 특징을 가지는 음원 데이터가 없다면 다음 형태소로 넘어감
                     i += 1
-                    bot.sendMessage(update.message.chat_id, text="조금 더 명확하게 말씀해주실래요?ㅜㅜ")
+                    if count < 1:
+                        bot.sendMessage(update.message.chat_id, text="조금 더 명확하게 말씀해주실래요?ㅜㅜ")
+                        count += 1
                     continue
             else:       # 해당 형태소가 감성어 기분석 사전에 존재하지 않으며 품사 형식 또한 아닐 때 다음 형태소로 넘어감
                 i += 1
-                bot.sendMessage(update.message.chat_id, text="조금 더 명확하게 말씀해주실래요?ㅜㅜ")
+                if count < 1:
+                    bot.sendMessage(update.message.chat_id, text="조금 더 명확하게 말씀해주실래요?ㅜㅜ")
+                    count += 1
                 continue
+
+            count += 1
 
             # 유사한 특징을 가지는 음원 데이터들 중 어느정도 유명한 음원 데이터 하나를 무작위로 선택하여 임시 변수에 저장
             while(1):
