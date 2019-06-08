@@ -16366,7 +16366,6 @@ ngram,Intensity/max.value,ST/max.value,SP/max.value
 °¢¼º/NNG,High,Emotion,NEUT
 ³î¶÷/NNG,High,Emotion,NEUT
 ÈïºÐµÊ/NNG,High,Emotion,POS
-Çàº¹/NNG,Medium,Emotion,POS
 ±â»Ý/NNG,Medium,Emotion,POS
 Ä§Âø/NNG,Low,Emotion,POS
 Æí¾È/NNG,Low ,Emotion,NEUT
@@ -16402,7 +16401,6 @@ ngram,Intensity/max.value,ST/max.value,SP/max.value
 ¸í¶û/NNG,Medium,Emotion,POS
 ÀÇ±â¾ç¾ç/NNG,High,Emotion,POS
 È²È¦/NNG,High,Emotion,POS
-ÈïºÐ/NNG,High,Emotion,POS
 À¯Äè/NNG,Medium,Emotion,POS
 ¿î/NNG,Medium,Emotion,POS
 ÁÁÀº/NNG,Medium,Emotion,POS
